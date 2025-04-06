@@ -1,0 +1,135 @@
+[debug] [2025-04-06T15:32:02.601Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T15:32:02.605Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-06T15:32:02.606Z] CLI Version:   14.1.0
+[debug] [2025-04-06T15:32:02.606Z] Platform:      win32
+[debug] [2025-04-06T15:32:02.607Z] Node Version:  v22.13.1
+[debug] [2025-04-06T15:32:02.607Z] Time:          Sun Apr 06 2025 22:32:02 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T15:32:02.608Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T15:32:02.958Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T15:32:02.959Z] > authorizing via signed-in user (ph.pitiphat@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-06T15:32:05.832Z] Using project from CLI flag: fireship-lessons
+[debug] [2025-04-06T15:32:05.834Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:32:05.834Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:32:05.836Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
+[debug] [2025-04-06T15:32:06.390Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
+[debug] [2025-04-06T15:32:06.390Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T15:32:06.392Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-06T15:32:06.526Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-04-06T15:32:32.133Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T15:32:32.139Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-04-06T15:32:32.139Z] CLI Version:   14.1.0
+[debug] [2025-04-06T15:32:32.140Z] Platform:      win32
+[debug] [2025-04-06T15:32:32.140Z] Node Version:  v22.13.1
+[debug] [2025-04-06T15:32:32.140Z] Time:          Sun Apr 06 2025 22:32:32 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T15:32:32.141Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T15:32:32.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T15:32:32.480Z] > authorizing via signed-in user (ph.pitiphat@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-06T15:32:33.221Z] Using project from CLI flag: fireship-lessons
+[debug] [2025-04-06T15:32:33.223Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:32:33.223Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:32:33.226Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
+[debug] [2025-04-06T15:32:33.683Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
+[debug] [2025-04-06T15:32:33.684Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T15:32:33.685Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-06T15:32:33.844Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-04-06T15:32:48.312Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T15:32:48.318Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2025-04-06T15:32:48.318Z] CLI Version:   14.1.0
+[debug] [2025-04-06T15:32:48.318Z] Platform:      win32
+[debug] [2025-04-06T15:32:48.319Z] Node Version:  v22.13.1
+[debug] [2025-04-06T15:32:48.319Z] Time:          Sun Apr 06 2025 22:32:48 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T15:32:48.319Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T15:32:48.654Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T15:32:48.654Z] > authorizing via signed-in user (ph.pitiphat@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-06T15:32:51.114Z] Using project from CLI flag: fireship-lessons
+[debug] [2025-04-06T15:32:51.116Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:32:51.117Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:32:51.119Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
+[debug] [2025-04-06T15:32:51.591Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
+[debug] [2025-04-06T15:32:51.592Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T15:32:51.593Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[debug] [2025-04-06T15:32:51.728Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
