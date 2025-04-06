@@ -133,3 +133,62 @@ Before we get started, keep in mind:
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 [error] 
 [error] Error: Failed to get Firebase project fireship-lessons. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-04-06T15:33:41.911Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T15:33:41.916Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sumo\Dropbox\PC\Downloads\CICD\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-04-06T15:33:41.916Z] CLI Version:   14.1.0
+[debug] [2025-04-06T15:33:41.917Z] Platform:      win32
+[debug] [2025-04-06T15:33:41.917Z] Node Version:  v22.13.1
+[debug] [2025-04-06T15:33:41.917Z] Time:          Sun Apr 06 2025 22:33:41 GMT+0700 (Indochina Time)
+[debug] [2025-04-06T15:33:41.917Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T15:33:42.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T15:33:42.340Z] > authorizing via signed-in user (ph.pitiphat@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2025-04-06T15:33:42.359Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-06T15:33:42.359Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-04-06T15:33:42.360Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-04-06T15:33:42.369Z] [hub] writing locator at C:\Users\Sumo\AppData\Local\Temp\hub-fireship-lessons.json
+[debug] [2025-04-06T15:33:42.398Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:33:42.399Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:33:42.400Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons/sites 
+[debug] [2025-04-06T15:33:43.194Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons/sites 403
+[debug] [2025-04-06T15:33:43.195Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons/sites {"error":{"code":403,"message":"Permission 'firebasehosting.sites.get' denied on resource 'projects/fireship-lessons' (or it may not exist)","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T15:33:43.195Z] Failed to list hosting sites
+[debug] Request to https://firebasehosting.googleapis.com/v1beta1/projects/fireship-lessons/sites had HTTP Error: 403, Permission 'firebasehosting.sites.get' denied on resource 'projects/fireship-lessons' (or it may not exist)
+[debug] [2025-04-06T15:33:43.196Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:33:43.196Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:33:43.196Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons/webApps/-/config [none]
+[debug] [2025-04-06T15:33:43.584Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons/webApps/-/config 403
+[debug] [2025-04-06T15:33:43.584Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons/webApps/-/config {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T15:33:43.584Z] fetchWebSetup error: FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons/webApps/-/config had HTTP Error: 403, The caller does not have permission
+[warn] !  hosting: Authentication error when trying to fetch your current web app configuration, have you run firebase login? 
+[warn] !  hosting: Could not fetch web app configuration and there is no cached configuration on this machine. Check your internet connection and make sure you are authenticated. To continue, you must call firebase.initializeApp({...}) in your code before using Firebase. 
+[debug] [2025-04-06T15:33:43.588Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:33:43.588Z] Checked if tokens are valid: true, expires at: 1743957111839
+[debug] [2025-04-06T15:33:43.588Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons [none]
+[debug] [2025-04-06T15:33:43.886Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons 403
+[debug] [2025-04-06T15:33:43.886Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fireship-lessons {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-04-06T15:33:43.887Z] Request to https://firebase.googleapis.com/v1beta1/projects/fireship-lessons had HTTP Error: 403, The caller does not have permission
+[info] i  hosting[fireship-lessons]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fireship-lessons]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-06T15:33:43.927Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] "GET /favicon.ico HTTP/1.1" 200 385 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Apr/2025:15:34:29 +0000] \"GET /favicon.ico HTTP/1.1\" 200 385 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
